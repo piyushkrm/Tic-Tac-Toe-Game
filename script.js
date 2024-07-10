@@ -30,13 +30,13 @@ boxes.forEach((box) => {
         // box.innerText = "O";
         if (turnO) {    //playerO       //it means turnO ===true 
             box.classList.add("aditya-box");
-            box.innerHTML = "Piyush";
+            box.innerHTML = "Pihu";
             // console.log("PlayerO was clicked");
             turnO = false;
             // box.disabled = true;
         } else {        //playerX
             box.classList.add("piyush-box")
-            box.innerHTML = "Aditya";
+            box.innerHTML = "Sona";
             // console.log("PlayerX was clicked");
             turnO = true;
             // box.disabled = true;
